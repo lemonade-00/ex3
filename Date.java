@@ -6,7 +6,7 @@ public class Date {
         LocalDateTime currentTime = LocalDateTime.now();
         DateTimeFormatter formatter = DateTimeFormatter.ofPattern("yyyy-MM-dd HH:mm:ss");
 
-        LocalDateTime modifiedTime = currentTime.plusHours(4);
+        LocalDateTime modifiedTime = currentTime.plusHours(7);
 
         System.out.println("Current time: " + currentTime.format(formatter));
         System.out.println("Modified time: " + modifiedTime.format(formatter));
