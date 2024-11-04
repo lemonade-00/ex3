@@ -8,6 +8,7 @@ public class Date {
 
         LocalDateTime modifiedTime = currentTime.plusHours(7);
 
+        System.out.println("Modified time: " + modifiedTime.format(formatter));
         System.out.println("Current time: " + currentTime.format(formatter));
         System.out.println("Modified time: " + modifiedTime.format(formatter));
     }
